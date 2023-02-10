@@ -3,3 +3,4 @@
 2-bring_me_home : go to home directory
 3-listfiles : list content of current directory with more informaions about them
 4-listmorefiles : list current directory's content (even hidden) with their information
+5-listfilesdigitonly : list contents of current directory, even hidden ones, with their information but the user and group names are numerical
