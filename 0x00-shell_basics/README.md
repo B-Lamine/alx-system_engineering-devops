@@ -8,3 +8,4 @@
 7-movethatfile : move the betty file from tmp to tmp/my_first_directory
 8-firstdelete : delete betty file from /tmp/my_first_directory
 9-firstdirdeletion : delete the directory /tmp/my_first_directory
+10-back : a script to go back to the previous working directory
