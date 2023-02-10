@@ -6,3 +6,4 @@
 5-listfilesdigitonly : list contents of current directory, even hidden ones, with their information but the user and group names are numerical
 6-firstdirectory : create my_first_directory in the tmp directory
 7-movethatfile : move the betty file from tmp to tmp/my_first_directory
+8-firstdelete : delete betty file from /tmp/my_first_directory
