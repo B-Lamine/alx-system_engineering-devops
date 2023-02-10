@@ -10,4 +10,5 @@
 9-firstdirdeletion : delete the directory /tmp/my_first_directory
 10-back : a script to go back to the previous working directory
 11-lists : list contents (even hidden) of current, parent and /boot directories in this order
-12-file_type : show type of the file /tmp/iamafile 
+12-file_type : show type of the file /tmp/iamafile
+13-symbolic_link : create a symbolic link to /bin/ls named __ls__ 
