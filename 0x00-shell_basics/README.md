@@ -9,3 +9,4 @@
 8-firstdelete : delete betty file from /tmp/my_first_directory
 9-firstdirdeletion : delete the directory /tmp/my_first_directory
 10-back : a script to go back to the previous working directory
+11-lists : list contents (even hidden) of current, parent and /boot directories in this order 
