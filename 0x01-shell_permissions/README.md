@@ -9,3 +9,4 @@
 8-James_Bond : restrict all to owner and group, and grant all to other users
 9-John_Doe : permits all to user, reading and executing to group, writing and executing to others
 10-mirror_permissions : copy permissions of olleh to hello
+11-directories_permissions : grant execute permission to current directory and all its subdirectories
