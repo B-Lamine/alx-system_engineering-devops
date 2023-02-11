@@ -8,3 +8,4 @@
 7-everybody : grants execute permission to all
 8-James_Bond : restrict all to owner and group, and grant all to other users
 9-John_Doe : permits all to user, reading and executing to group, writing and executing to others
+10-mirror_permissions : copy permissions of olleh to hello
