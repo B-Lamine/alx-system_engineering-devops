@@ -7,3 +7,4 @@
 6-multiple_permissions : adds execute permission to user and group, and read permission to other users
 7-everybody : grants execute permission to all
 8-James_Bond : restrict all to owner and group, and grant all to other users
+9-John_Doe : permits all to user, reading and executing to group, writing and executing to others
