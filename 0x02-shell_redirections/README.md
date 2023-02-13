@@ -9,3 +9,4 @@ This directory contains script with simple redirection functions. Below is their
 6-third_line : displays the third line of the file iacta.
 7-file : creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*: containing the text "Best School".
 8-cwd_state : creates a file ls_cwd_content with the results of the command ls -al.
+9-duplicate_last_line : duplicate the last line of the file iacta and append it to it.
