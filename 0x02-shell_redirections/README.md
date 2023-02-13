@@ -5,3 +5,4 @@ This directory contains script with simple redirection functions. Below is their
 2-hellofile : displays the contents of the file /etc/passwd.
 3-twofiles : displays contents of both files /etc/passwd and /etc/hosts.
 4-lastlines : displays the 10 last lines of the file /etc/passwd.
+5-firstlines : displays 10 first lines of the file /etc/passwd.
