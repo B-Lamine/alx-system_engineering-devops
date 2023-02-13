@@ -10,3 +10,4 @@ This directory contains script with simple redirection functions. Below is their
 7-file : creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*: containing the text "Best School".
 8-cwd_state : creates a file ls_cwd_content with the results of the command ls -al.
 9-duplicate_last_line : duplicate the last line of the file iacta and append it to it.
+10-no_more_js : deletes all .js files present in the current directory and its subdirectories.
