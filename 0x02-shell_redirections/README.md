@@ -8,3 +8,4 @@ This directory contains script with simple redirection functions. Below is their
 5-firstlines : displays 10 first lines of the file /etc/passwd.
 6-third_line : displays the third line of the file iacta.
 7-file : creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*: containing the text "Best School".
+8-cwd_state : creates a file ls_cwd_content with the results of the command ls -al.
