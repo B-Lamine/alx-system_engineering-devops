@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, World"\r
+echo Hello, World >&1
