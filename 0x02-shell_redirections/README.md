@@ -6,3 +6,4 @@ This directory contains script with simple redirection functions. Below is their
 3-twofiles : displays contents of both files /etc/passwd and /etc/hosts.
 4-lastlines : displays the 10 last lines of the file /etc/passwd.
 5-firstlines : displays 10 first lines of the file /etc/passwd.
+6-third_line : displays the third line of the file iacta.
