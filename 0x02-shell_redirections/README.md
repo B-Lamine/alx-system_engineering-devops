@@ -17,3 +17,4 @@ This directory contains script with simple redirection functions. Below is their
 14-findthatword : searches for the word root in the file /etc/passwd
 15-countthatword : counts the number of lines that contain the word bin in the file /etc/passwd.
 16-whatsnext : displays lines containing the word root and 3 lines after in the file passwd.
+17-hidethisword : show lines that do not contain "bin" in the file passwd.
