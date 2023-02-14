@@ -12,3 +12,4 @@ This directory contains scripts for manipulating shell variables, expansion, and
 9-divide_and_rule : divides POWER by DIVIDE and prints the result.
 10-love_exponent_breath : calculates BREATH**LOVE and prints the result.
 11-binary_to_decimal : converts binary number stored in BINARY to a decimal number and prints it.
+12-combinations : lists all dual combinations of lower case letters from a to z in order except for "oo".
