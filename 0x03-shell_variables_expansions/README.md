@@ -13,3 +13,4 @@ This directory contains scripts for manipulating shell variables, expansion, and
 10-love_exponent_breath : calculates BREATH**LOVE and prints the result.
 11-binary_to_decimal : converts binary number stored in BINARY to a decimal number and prints it.
 12-combinations : lists all dual combinations of lower case letters from a to z in order except for "oo".
+13-print_float : prints a decimal number stored in NUM with two decimal places.
