@@ -10,3 +10,4 @@ This directory contains scripts for manipulating shell variables, expansion, and
 7-create_global_variable : creates a global variable BEST with value "School".
 8-true_knowledge : prints the result of adding 128 to the value stored in TRUEKNOWLEDGE with a new line at the end.
 9-divide_and_rule : divides POWER by DIVIDE and prints the result.
+10-love_exponent_breath : calculates BREATH**LOVE and prints the result.
