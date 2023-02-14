@@ -19,3 +19,4 @@ This directory contains script with simple redirection functions. Below is their
 16-whatsnext : displays lines containing the word root and 3 lines after in the file passwd.
 17-hidethisword : show lines that do not contain "bin" in the file passwd.
 18-letteronly : display only lines starting with a letter,upper/lower case, of the file /etc/ssh/sshd_config.
+19-AZ : replace characters A and c with z and e respectively given any input.
