@@ -15,3 +15,4 @@ This directory contains script with simple redirection functions. Below is their
 12-newest_files : displays list of 10 latest files modified from most to least recent.
 13-unique : takes a list as standard input and displays a list of only unique words sorted.
 14-findthatword : searches for the word root in the file /etc/passwd
+15-countthatword : counts the number of lines that contain the word bin in the file /etc/passwd.
