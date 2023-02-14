@@ -13,3 +13,4 @@ This directory contains script with simple redirection functions. Below is their
 10-no_more_js : deletes all .js files present in the current directory and its subdirectories.
 11-directories : counts the number of directories and subdirectories in the current directory (excluded).
 12-newest_files : displays list of 10 latest files modified from most to least recent.
+13-unique : takes a list as standard input and displays a list of only unique words sorted.
