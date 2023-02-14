@@ -5,3 +5,4 @@ This directory contains scripts for manipulating shell variables, expansion, and
 2-path : appends the directory /action to the PATH list of directories.
 3-paths : displays the number of directories in PATH.
 4-global_variables : lists all environment variables.
+5-local_variables : lists all local variables, global variables and functions.
