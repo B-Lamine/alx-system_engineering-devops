@@ -15,3 +15,4 @@ This directory contains scripts for manipulating shell variables, expansion, and
 12-combinations : lists all dual combinations of lower case letters from a to z in order except for "oo".
 13-print_float : prints a decimal number stored in NUM with two decimal places.
 100-decimal_to_hexadecimal : converts decimal input to hexadecimal number.
+101-rot13 : encodes/decodes text using rot13 encryption.
