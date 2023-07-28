@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this script returns the PID of its own instance program's.
+
+pidof pidof
