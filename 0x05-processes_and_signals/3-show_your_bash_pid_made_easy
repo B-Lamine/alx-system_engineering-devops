@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script that lists bash running instances' PID's.
+
+pgrep -l bash
