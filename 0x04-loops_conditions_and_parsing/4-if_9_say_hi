@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#this script prints the string "Best School" over 10 lines
+
+x=0
+while [ "$x" -lt 10 ]
+do
+	if [ "$x" -eq 9 ]
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	x=$(( x + 1 ))
+done
