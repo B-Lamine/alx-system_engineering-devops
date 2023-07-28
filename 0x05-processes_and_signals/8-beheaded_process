@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script to terminate an unkillable process.
+
+kill -9 "$(pgrep -f "bash ./7-highlander")"
