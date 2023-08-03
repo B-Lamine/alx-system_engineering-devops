@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#change IP addresses in the hosts file as follows:
+#+	localhost : 127.0.0.2,
+#+	facebook.com : 8.8.8.8.
+
+cp /etc/hosts ~/hosts.new
+echo -e "127.0.0.2\tlocalhost\n8.8.8.8\tfacebook.com" > ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
