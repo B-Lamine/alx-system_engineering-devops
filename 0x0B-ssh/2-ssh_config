@@ -4,3 +4,4 @@ Host 229494-web-01
     HostName 54.165.126.189
     User ubuntu
     BatchMode yes
+    IdentityFile ~/.ssh/school
