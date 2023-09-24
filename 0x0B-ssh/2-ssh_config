@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # ssh config file
-Host 229494-web-01
-    HostName 54.165.126.189
+Host 54.165.126.189
     User ubuntu
-    BatchMode yes
+    PasswordAuthentication yes
     IdentityFile ~/.ssh/school
