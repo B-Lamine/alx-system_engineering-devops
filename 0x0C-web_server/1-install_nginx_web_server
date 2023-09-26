@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 # install and configure nginx web server
 
-apt-get -y install nginx
-ufw allow "Nginx HTTP"
-echo "Hellow World!" | sudo tee /var/www/html/index.html
-service nginx start
+sudo apt-get -y install nginx
+sudo ufw allow "Nginx HTTP"
+html_content="<html>
+    <head>
+    </head>
+    <body>
+        Hellow World!
+    </body>
+</html>"
+sudo echo -e "$html_content" | sudo tee /var/www/html/index.html
+sudo service nginx restart
