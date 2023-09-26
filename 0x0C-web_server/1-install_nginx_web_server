@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # install and configure nginx web server
 
-sudo apt-get -y install nginx
-sudo ufw allow "Nginx HTTP"
-sudo echo "Hellow World!" | sudo tee /var/www/html/index.html
-sudo service nginx restart
+apt-get -y install nginx
+ufw allow "Nginx HTTP"
+echo "Hellow World!" | sudo tee /var/www/html/index.html
+service nginx restart
