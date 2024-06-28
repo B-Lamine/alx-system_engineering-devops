@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# ssh config file
-Host 54.165.126.189
-    User ubuntu
-    PasswordAuthentication yes
-    IdentityFile ~/.ssh/school
