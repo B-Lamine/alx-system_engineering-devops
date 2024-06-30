@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# ssh config file
+Host 100.26.57.12
+    User ubuntu
+    PasswordAuthentication yes
+    IdentityFile ~/.ssh/school
