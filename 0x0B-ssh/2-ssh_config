@@ -2,5 +2,5 @@
 # ssh config file
 Host 100.26.57.12
     User ubuntu
-    PasswordAuthentication yes
+    PasswordAuthentication no
     IdentityFile ~/.ssh/school
