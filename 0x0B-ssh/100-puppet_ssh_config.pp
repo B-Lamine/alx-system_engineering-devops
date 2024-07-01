@@ -1,15 +1,15 @@
 # maintain client-side configuration file
 
-ifile_line { 'IdentityFile':
+file_line { 'IdentityFile':
   ensure => 'present',
-  path   => '~/.ssh/config',
-  line   => '\tIdentityFile ~/.ssh/school',
-  after  => '\tUser ubuntu'
+  path   => '/root/.ssh/config',
+  line   => '	IdentityFile ~/.ssh/school',
+  after  => '	User ubuntu',
 }
 
 file_line { 'PasswordAuthentication':
   ensure => 'present',
-  path   => '~/.ssh/config',
-  line   => '\tPasswordAuthentication no',
-  after  => '\tUser ubuntu'
+  path   => '/root/.ssh/config',
+  line   => '	PasswordAuthentication no',
+  after  => '	User ubuntu',
 }
