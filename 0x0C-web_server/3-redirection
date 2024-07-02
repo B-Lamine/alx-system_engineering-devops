@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# install and configure nginx web server
+
+sudo apt-get -y install nginx
+content="server_name _;\n\trewrite ^\/redirect_me https:\/\/https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
+sudo sed -i "s/server_name _;/$content/" /etc/nginx/sites-enabled/default
+sudo service nginx restart
+
