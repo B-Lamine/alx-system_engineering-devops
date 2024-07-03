@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # start apache2 in container
 
-service apache2 start
+/etc/init.d/apache2 start
