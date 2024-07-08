@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# install and configure nginx web server to return hostname;
+
+sudo apt-get update
+sudo apt-get -y install nginx
+content="try_files \$uri \$uri\/ =404;\n\t\tadd_header X-Served-By \$hostname always;"
+sudo sed -i "s/try_files \$uri \$uri\/ =404;/$content/" /etc/nginx/sites-enabled/default
+sudo service nginx restart
+
