@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# reconfigure nginx to listen to port 80.
+sudo apt-get install --reinstall nginx
+service nginx restart
