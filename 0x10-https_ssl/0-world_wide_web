@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# display domain and/or irs subdomains information.
+subdomains=("www" "lb-01" "web-01" "web-02")
+display_Arecords () {
+	dig "$1" | grep -A1 'ANSWER SECTION:' | sed -n '2p'
+}
+x=$(echo "$1" | awk '{split($0, a, "."); print a[1]}')
+subdomain="\<$x\>"
+if ! [[ ${subdomains[*]} =~ $subdomain ]]
+then
+	for subdomain in "${subdomains[@]}"
+	do
+		display_Arecords "$subdomain.$1"
+	done
+else
+	display_Arecords "$1"
+fi
