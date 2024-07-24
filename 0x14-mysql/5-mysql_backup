@@ -2,9 +2,9 @@
 # Creating a compressed backup of all databases
 if [ "$#" -eq 0 ]
 then
-	sudo mysqldump -u root --all-databases | sudo tee backup.sql
+	mysqldump -u root --all-databases > backup.sql
 else
-	sudo mysqldump -u root -p "$1" --all-databases | sudo tee backup.sql
+	mysqldump -u root -p "$1" --all-databases > backup.sql
 fi
 backup_date=$(date +%d-%m-%Y)
 sudo tar -cvzf "$backup_date.tar.gz" backup.sql
