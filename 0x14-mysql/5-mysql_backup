@@ -7,4 +7,4 @@ else
 	sudo mysqldump -u root -p "$1" --all-databases | sudo tee backup.sql
 fi
 backup_date=$(date +%d-%m-%Y)
-tar -cvzf "$backup_date.tar.gz" backup.sql
+sudo tar -cvzf "$backup_date.tar.gz" backup.sql
